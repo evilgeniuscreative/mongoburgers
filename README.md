@@ -22,17 +22,19 @@ A two part hw to practice Mongodb basics and mongoose basics
 
 ---
 
-## Deliverables
+## Day 1
 
 Tonight's homework is in two parts, first start with [Mongo Burgers](mongo_burgers/README.md) in the `mongo_burgers` folder
 
-### Stretch Goal
+
+## Day 2
+
 Then once you finish Mongo Burgers, move on to [Mongoose Hotels](hotels_app/README.md) in the `hotels_app` folder
 
 
 ## Technical Requirements
 1. Must write answers to mongo burgers in `answers.js` that is provided
-2. Must answer to hotels in `hotels_app` folder and use seed date
+2. Must answer to hotels in `hotels_app` folder and use seed data
 3. Both apps must run without syntax errors
 
 ## Submission Guidelines
