@@ -1,6 +1,4 @@
-Homework Submission
-* Completeness (0 - 5) : 
-* Comfort (0 - 5) :
-* Wins :
-* Struggles :
-* Other comments :
+Comfort score:
+Completeness score:
+
+Questions? Comments? Add them here:
