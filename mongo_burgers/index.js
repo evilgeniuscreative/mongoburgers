@@ -9,15 +9,8 @@ const db = mongoose.connection;
 
 mongoose.connect(MONGO_URI);
 
-console.log('everyMeat', everyMeat);
-everyMeat.forEach(function (n) {
-  Meat.findOneAndUpdate(n, n, {
-    upsert: true,
-    function(err, doc) {
-      cl.doc;
-    },
-  });
-});
+await db.Meat.updateMany(everyMeat, { upsert: true });
+await db.Toppings.updateMany(everyTopping, { upsert: true });
 
 // Connection statuses
 db.on('error', (err) => console.log(err.message + 'is MongoDB not running?'));
