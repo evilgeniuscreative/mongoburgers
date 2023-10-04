@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const db = mongoose.connection;
 //db.collection('meats').deleteMany({});
 
 const meatSchema = new Schema({
@@ -14,6 +13,7 @@ const meatSchema = new Schema({
     default: 1,
   },
 });
-const Meat = mongoose.model('Meat', meatSchema);
 
-module.exports = Meat;
+const Meat = mongoose.model('Meat', meatSchema, 'meat');
+
+module.exports = { Meat };

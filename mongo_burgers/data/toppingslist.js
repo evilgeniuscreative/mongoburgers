@@ -1,5 +1,3 @@
-const mongoose = require('mongoose');
-
 const everyTopping = [
   { topping: 'ketchup', cost: 0 },
   { topping: 'mustard', cost: 0 },
@@ -25,4 +23,4 @@ const everyTopping = [
   { topping: 'fried green tomatoes', cost: 1 },
 ];
 
-module.exports = everyTopping;
+module.exports = { everyTopping };

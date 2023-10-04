@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const db = mongoose.connection;
-db.collection('toppings').deleteMany({});
+//db.collection('toppings').deleteMany({});
 
-const Toppings = new Schema({
+const toppingSchema = new Schema({
   topping: {
     type: String,
     unique: true,
@@ -14,4 +13,6 @@ const Toppings = new Schema({
   },
 });
 
-module.exports = Toppings;
+const Topping = mongoose.model('Topping', toppingSchema, 'topping');
+
+module.exports = { Topping };

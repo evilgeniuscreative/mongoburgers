@@ -1,4 +1,3 @@
-const mongoose = require.mongoose;
 const everyMeat = [
   {
     name: 'beef',
@@ -37,4 +36,4 @@ const everyMeat = [
   },
 ];
 
-module.exports = everyMeat;
+module.exports = { everyMeat };
