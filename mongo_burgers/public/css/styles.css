@@ -1,0 +1,46 @@
+/*  Main Structure  */
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 18px;
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  height: 200px;
+  width: auto;
+}
+
+/* Typography  */
+
+.title {
+  font-family: 'IBM Plex Sans';
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+/* Homepage  */
+.columns {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.columns > div {
+  background-color: #efefef;
+  flex-basis: 30%;
+  min-height: 300px;
+}
